@@ -18,11 +18,11 @@ h1 {
     font-family: 'Trebuchet MS';
     padding-left: 4rem;
     text-decoration: none;
-    color: white;
 }
 
 h1 a {
     text-decoration: none;
+    color: white;
 }
 
 h2 {
