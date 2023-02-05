@@ -1,4 +1,7 @@
 
+
+
+
 #wrapper {
     /*background-color: beige;*/
     display: grid;
@@ -102,7 +105,7 @@ nav ul {
 img {
     width: 500px;
     height: auto;
-    border-radius: 5px;
+    border-radius: 100px;
 }
 
 #space {
@@ -181,7 +184,41 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
+@media only screen and (max-width: 600px) {
+    img {
+        height: auto;
+        width: 250px;
+    }
+
+    #mainStuff {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+
+}
+/* 
+
+add some media queries to make it more responsive to 
+mobile users.
+
+find some stock photos of nice bathrooms, homes, things like that. 
+make sure to grab photos of MODERN projects
+
+look up css reset.
+
+Write up stuff on FAMILY, family pics etc. for the bio page. Don't make it just about alexxxx
+"as a kid super good with hands, loves pulling things apart and putting them back together. 
+Apprenticed for a few handymen, etc."
+
+add a hover drop down list for contact nav element, and reformat pictures to be smaller, and increase text size for contact info.
+
+HTTPS and search engine optimization
+
+*/
 
