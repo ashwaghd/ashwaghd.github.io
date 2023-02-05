@@ -170,7 +170,6 @@ p {
 
 #galleryStuff img {
     padding: 20px;
-    border-radius: 5%;
 }
 
 #bioStuff {
@@ -198,6 +197,16 @@ p {
         justify-content: center;
         align-items: center;
         
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1 {
+        padding: 0px;
     }
 
 
