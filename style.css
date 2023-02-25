@@ -244,7 +244,8 @@ p {
     #logo {
         opacity: 80%;
         width: auto;
-        height: 150px;
+        height: 200px;
+        border-radius: 15px;
     }
 
     #mainStuff {
@@ -253,6 +254,10 @@ p {
         justify-content: center;
         align-items: center;
         
+    }
+
+    #famPhoto {
+        display: none;
     }
 
     header {
